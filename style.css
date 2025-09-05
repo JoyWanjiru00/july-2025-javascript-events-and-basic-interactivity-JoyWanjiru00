@@ -1,0 +1,5 @@
+body { font-family: sans-serif; margin: 20px; }
+.hidden { display: none; }
+.error { color: red; font-size: 0.9em; }
+.success { color: green; }
+body.dark { background: #222; color: #eee; }

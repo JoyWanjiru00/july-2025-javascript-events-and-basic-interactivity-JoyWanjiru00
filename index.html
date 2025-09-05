@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Interactive Webpage</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Interactive Demo</h1>
+    <button id="themeToggle">🌞 Toggle Dark Mode</button>
+  </header>
+
+  <main>
+    <section>
+      <h2>Counter</h2>
+      <button id="counterBtn">Click me!</button>
+      <p>Count: <span id="counterValue">0</span></p>
+    </section>
+
+    <section>
+      <h2>FAQ</h2>
+      <h3 class="faq-question">What is this?</h3>
+      <p class="faq-answer hidden">This is a test FAQ answer.</p>
+    </section>
+
+    <section>
+      <h2>Form</h2>
+      <form id="signupForm">
+        <input type="text" id="name" placeholder="Name">
+        <span class="error" id="nameError"></span><br>
+        <input type="text" id="email" placeholder="Email">
+        <span class="error" id="emailError"></span><br>
+        <input type="password" id="password" placeholder="Password">
+        <span class="error" id="passwordError"></span><br>
+        <button type="submit">Submit</button>
+      </form>
+      <p id="formSuccess" class="success hidden">Form submitted!</p>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
